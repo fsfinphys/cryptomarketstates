@@ -1,23 +1,21 @@
 {\rtf1\ansi\ansicpg1252\cocoartf2636
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+{\colortbl;\red255\green255\blue255;\red255\green255\blue11;}
+{\*\expandedcolortbl;;\cssrgb\c100000\c100000\c0;}
+\margl1440\margr1440\vieww10980\viewh7960\viewkind0
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
 \f0\fs24 \cf0 Analysis to do:\
-1. Decide a total time frame T for data: i.e, 4 years\
+\cf2 1. Decide a total time frame T for data: i.e, 4 years\
 2. Decide on shorter epoch time t (i.e, 20 days [we want small epoch times for stationarity]) so we have a total of T/t = n  matrices \
 3. Decide how many cryptos, N, we will analyze (must have data throughout entire time T and can\'92t be stable coins)\
 4. Calculate the rate of return for each crypto chosen and make R matrix for each epoch time. R matrix will then have t rows and N columns and we will have n of these.\
 5. Plot the averages of these R matrices for each time.\
 6. Calculate correlation matrix C for our chosen cryptos over every epoch time (we will have n of these).  These will be N x N. \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf0 7. Plot mean correlation of each C matrix (before noise suppression[un sure ab this, lets check both]) during its epoch time.\
-8. Since we have a short epoch time and a lot of cryptos we must do noise suppression on them via power mapping since we will have a lot of 0s (singular matrices) in order for the next step of clustering them.\
+7. Plot mean correlation of each C matrix (before noise suppression[un sure ab this, lets check both]) during its epoch time.\
+8. Since we have a short epoch time and a lot of cryptos we must do noise suppression on them via power mapping since we will have a lot of 0s (singular matrices) in order for the next step of clustering them.\cf0 \
 9. With suppressed noise C matrices we compute the similarity matrices needed for market state detection.\
 10. To be continued\'85\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf0 \
+\
 \
 }
