@@ -1,3 +1,5 @@
+import numpy as np
+import requests
 from yahoo_fin.stock_info import get_data
 
 def getdata(url):
@@ -22,3 +24,6 @@ def crypto_meta_marketcap(n_count=500):
         cryptos.iloc[o*count:(o+1)*count] = df
         
     return cryptos
+
+def load_crypto_names():
+    return np.loadtxt('data/cryptos.csv', dtype='str')
