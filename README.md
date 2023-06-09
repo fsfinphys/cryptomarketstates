@@ -1,4 +1,4 @@
-Utilizing a relatively innovative approach to identify general patterns within intricate systems, we examine an analysis presented in this paper: https://arxiv.org/pdf/1809.07100.pdf.
+Utilizing a relatively innovative approach to identify general patterns within intricate systems, we employ the analysis presented in this paper: https://arxiv.org/pdf/1809.07100.pdf to the cryptocurrency market.
 
 Cryptocurrencies, an emerging asset class with a market capitalization exceeding $1 trillion, exhibit a notable level of correlation in their price movements. It begs the question: Can we develop a probabilistic prediction for tomorrow's events based on the interplay of cryptocurrency prices today?
 
